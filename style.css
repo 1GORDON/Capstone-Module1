@@ -12,6 +12,10 @@ body {
   font-family: "lato", sans-serif;
 }
 
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
 .main-nav-section,
 .navbar-logo,
 .product,
@@ -20,6 +24,7 @@ body {
 }
 
 header {
+  position: absolute;
   background: transparent;
 }
 
@@ -64,7 +69,7 @@ header {
 }
 
 .first-section {
-  background-image: url(./images/kids5.svg);
+  background-image: url(./images/kidslistening.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -415,7 +420,7 @@ footer p {
   }
 
   .first-section {
-    background: url(./images/kids5.svg);
+    background: url(./images/kidslistening.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -428,6 +433,12 @@ footer p {
     min-height: 685px;
     margin-inline: auto;
     height: auto;
+  }
+
+  .overlay {
+    background-color: #bbb8b88a;
+    height: inherit;
+    width: 100%;
   }
 
   .open-intro-heading {
@@ -452,6 +463,11 @@ footer p {
     padding-inline: 1rem;
     padding-block: 0.75rem;
     margin-top: 2%;
+    background-color: rgba(233, 231, 231, 0.836);
+  }
+
+  .para {
+    line-height: 26px;
   }
 
   .venue {
@@ -678,6 +694,11 @@ footer p {
     align-items: center;
     width: 70%;
     margin: auto;
+  }
+
+  .copyright {
+    font-size: 20px;
+    font-weight: 10px;
   }
 
   .footer-logo a {

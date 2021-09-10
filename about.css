@@ -12,16 +12,12 @@ body {
   font-family: "lato", sans-serif;
 }
 
-/* .main-nav-section {
-  display: none;
-} */
-
-/* .secondary-navbar {
-  display: none;
-} */
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
 
 .first-section {
-  background: url(./images/background.png);
+  background: url(./images/kidslistening.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -177,10 +173,16 @@ footer {
 @media only screen and (min-width: 768px) {
   .first-section {
     min-height: 700px;
-    background: url(./images/background.png);
+    background: url(./images/kidslistening.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .overlay {
+    background-color: #bbb8b88a;
+    height: inherit;
+    width: 100%;
   }
 
   .first-section-container {
