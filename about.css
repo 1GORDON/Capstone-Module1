@@ -232,6 +232,10 @@ footer {
     margin-top: 100px;
   }
 
+  .home-link {
+    display: none !important;
+  }
+
   .overlay {
     background-color: #bbb8b88a;
     height: inherit;
@@ -398,18 +402,5 @@ footer {
     align-items: center;
     width: 70%;
     margin: auto;
-  }
-
-  .footer-logo a {
-    color: white;
-    font-size: 2rem;
-    font-weight: 800;
-    text-decoration: none;
-  }
-
-  .copy-right {
-    color: white;
-    font-size: 1rem;
-    margin: 0;
   }
 }

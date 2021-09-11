@@ -37,6 +37,12 @@ header {
   background: transparent;
 }
 
+.overlay {
+  background-color: #bbb8b88a;
+  height: inherit;
+  width: 100%;
+}
+
 .menu {
   margin: 1rem 0 0 1rem;
   cursor: pointer;
@@ -45,6 +51,10 @@ header {
 .menu1 {
   font-size: 35px;
   color: #3e3e3e;
+}
+
+.active-tab {
+  color: #ec5242 !important;
 }
 
 .pages-menu {
@@ -75,6 +85,7 @@ header {
 .page-sections a {
   color: white;
   text-decoration: none;
+  font-size: 25px;
 }
 
 .first-section {
@@ -82,19 +93,18 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0;
+  margin-bottom: -3.8%;
 }
 
 .first-section-container {
   width: 92.5%;
-  padding-top: 7rem;
   margin-inline: auto;
   min-height: 326.85px;
   height: auto;
+  padding: 80px 0;
 }
 
 .open-intro-heading {
-  margin-top: 5%;
   font-size: 1.6rem;
   font-weight: 400;
   color: #ec5242;
@@ -113,6 +123,12 @@ header {
   text-align: center;
   border: 3px solid white;
   margin-top: 5%;
+}
+
+.venue {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e3dcdc;
 }
 
 h3 {
@@ -161,6 +177,7 @@ hr {
   background-color: #393c43b3;
   margin-block: 2.5%;
   color: white;
+  padding: 20px;
 }
 
 .flex-box img {
@@ -180,7 +197,7 @@ hr {
 }
 
 .flex-box p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-left: 5%;
 }
 
@@ -254,18 +271,18 @@ hr {
 
 .partners-section {
   background-color: #3f444f;
+  padding: 30px 0;
 }
 
 .partners-heading {
   text-align: center;
   color: #fff;
-  padding-top: 10%;
 }
 
 .partners-flex {
   width: 90%;
   margin: auto;
-  margin-top: 10%;
+  padding-top: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -315,8 +332,9 @@ footer .copyright {
   }
 
   #openMenu,
-  #closeMenu {
-    display: none;
+  #closeMenu,
+  .home-link {
+    display: none !important;
   }
 
   .main-nav-section {
@@ -697,14 +715,6 @@ footer .copyright {
 
   .copyright {
     font-size: 20px;
-    font-weight: 10px;
-  }
-
-  .footer-logo a {
-    font-size: 2rem;
-    font-weight: 500;
-    text-decoration: none;
-    color: black;
   }
 
   .menu,
