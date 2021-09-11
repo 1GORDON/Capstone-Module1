@@ -84,6 +84,12 @@ header {
   height: auto;
 }
 
+.overlay {
+  background-color: #bbb8b88a;
+  height: inherit;
+  width: 100%;
+}
+
 .open-intro-heading {
   margin-top: 5%;
   font-size: 1.6rem;
@@ -489,6 +495,7 @@ footer p {
 
   p {
     line-height: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .second-section {
