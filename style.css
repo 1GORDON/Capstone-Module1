@@ -580,6 +580,7 @@ footer .copyright {
     margin-inline: auto;
     height: 70px;
     margin-block: 10%;
+    margin-top: -2px;
   }
 
   .program-button {

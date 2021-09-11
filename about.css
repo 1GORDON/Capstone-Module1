@@ -66,7 +66,6 @@ body {
 p {
   line-height: 1.5rem;
   font-size: 1.1rem;
-  font-weight: 2rem;
 }
 
 .event-details {
@@ -182,6 +181,7 @@ footer {
   font-size: 0.8rem;
 }
 
+/* DESKTOP VERSION */
 @media only screen and (min-width: 768px) {
   .first-section {
     min-height: 700px;
@@ -193,7 +193,6 @@ footer {
 
   .first-section-container {
     width: 92.5%;
-    padding-top: 7rem;
     margin-inline: auto;
     min-height: 326.85px;
     height: auto;
@@ -201,6 +200,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
   }
 
   .overlay {
@@ -210,8 +210,8 @@ footer {
   }
 
   .open-heading {
-    width: 50%;
-    font-size: 3.2rem;
+    width: 80%;
+    font-size: 1.8rem;
     font-family: "cocogoose", sans-serif;
     color: #ec5242;
     margin: 0;
@@ -219,7 +219,7 @@ footer {
   }
 
   .first-section-para {
-    width: 60%;
+    width: 80%;
     margin-top: 2%;
     padding: 1.8%;
     margin-bottom: 2%;
@@ -262,8 +262,6 @@ footer {
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
   }
 
@@ -281,9 +279,54 @@ footer {
 
   .desktop-para {
     display: block;
-    width: 70%;
+    width: 80%;
     margin-inline: auto;
     margin-block: 3%;
+    line-height: 28px;
+  }
+
+  .past-event-images {
+    display: flex;
+    height: 100%;
+    margin: 10% 0;
+  }
+
+  .image-contatiner-1 {
+    background-image: url('./images/kidseating.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin-right: 10px;
+  }
+
+  .image-contatiner-2 {
+    background-image: url('./images/kidspulling.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .overlay-image {
+    background-color: #ec534293;
+    height: 40vh;
+    margin-top: -0.1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .overlay-image-year {
+    font-family: 'cocogoose', sans-serif;
+    font-size: 30px !important;
+  }
+
+  .overlay-image-text {
+    font-size: 20px !important;
   }
 
   .logo-container {
