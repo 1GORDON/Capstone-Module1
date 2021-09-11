@@ -12,6 +12,15 @@ body {
   font-family: "lato", sans-serif;
 }
 
+.text-white {
+  color: white;
+}
+
+#openMenu,
+#closeMenu {
+  margin: 30px;
+}
+
 .font-lato {
   font-family: "Lato", sans-serif;
 }
@@ -292,6 +301,7 @@ footer p {
   font-size: 0.8rem;
 }
 
+/* DESKTOP VERSIONS */
 @media only screen and (min-width: 768px) {
   header {
     display: flex;
@@ -304,24 +314,30 @@ footer p {
     left: 0;
   }
 
+  #openMenu {
+    display: none;
+  }
+
   .main-nav-section {
     display: flex;
+    justify-content: flex-end;
     width: 100%;
     background-color: #3e3e3e;
   }
 
   .navbar-container {
-    width: 85%;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: 55px;
   }
 
   .navbar {
     display: flex;
     list-style: none;
-    justify-content: flex-end;
+    justify-content: flex-end !important;
     align-items: center;
-    padding-left: 0;
-    margin: 0;
+    width: 100%;
   }
 
   .navbar li {
@@ -339,13 +355,15 @@ footer p {
   }
 
   .secondary-navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
+    height: 40%;
     margin: 0;
     padding: 10px 0;
+  }
+
+  .secondary-sub-container {
+    display: flex;
+    align-items: center;
   }
 
   .navbar-logo a {
@@ -358,36 +376,24 @@ footer p {
 
   .navbar-logo {
     display: flex;
-    align-items: center;
-    justify-content: center;
     cursor: pointer;
-    width: 40%;
+    width: 35%;
+    margin-left: 10px;
   }
-
-  /* .pages-menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: unset;
-    border: none;
-    position: unset;
-    background-color: #fff;
-  } */
 
   .pages-menu {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     position: inherit;
-    width: 90%;
+    width: 80%;
     height: 100%;
-    margin: 0;
     background: none;
+    margin-right: 55px;
   }
 
   .navbar-items {
     margin-block: 0;
-    margin-right: 4rem;
   }
 
   .navbar-items li {
@@ -400,7 +406,7 @@ footer p {
     text-decoration: none;
     color: black;
     font-size: 1rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 
   .product {
