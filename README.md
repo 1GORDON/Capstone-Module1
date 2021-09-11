@@ -1,4 +1,5 @@
 # Capstone-Module1
+
 This is my Capstone Project for my Module 1 at Microverse
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
@@ -10,7 +11,7 @@ Building the the Capstone priject, I achieved the following milestone
 - Implemented the Featured speakers dynamically using Javascript objects
 - Implemented both the Home and About pages
 - Implemeted both mobile and desktop versions which are responsive
-- Implemented a menu list on the mobile version 
+- Implemented a menu list on the mobile version
 
 ## Built With
 
@@ -19,7 +20,9 @@ Building the the Capstone priject, I achieved the following milestone
 
 ## Live Demo
 
-[Link to My Capstone project](https://github.com/1GORDON/Capstone-Module1/)
+[Link to My Capstone project](https://1gordon.github.io/Capstone-Module1/)
+
+[Link to My Capstone video](https://loom.com/share/ec65d65b977f4223bd8bcb573adf72e3/)
 
 ## Getting Started
 
