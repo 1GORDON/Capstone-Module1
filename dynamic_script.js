@@ -1,21 +1,3 @@
-const openMenu = document.getElementById('menu');
-const closeMenu = document.getElementById('close');
-const menu = document.getElementById('mob-nav');
-const menuItems = Array.from(document.querySelectorAll('.page-sections'));
-function openMobileMenu() {
-  menu.style.display = 'block';
-}
-
-function closeMobileMenu() {
-  menu.style.display = 'none';
-}
-
-openMenu.addEventListener('click', openMobileMenu);
-closeMenu.addEventListener('click', closeMobileMenu);
-menuItems.forEach((item) => {
- item.addEventListener('click', closeMobileMenu);
-});
-
 const data = [
   {
     id: 1,
