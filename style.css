@@ -421,6 +421,10 @@ footer .copyright {
     font-size: 0.9rem;
   }
 
+  /* .cursor-pointer {
+    cursor: pointer !important;
+  } */
+
   .page-sections a {
     text-decoration: none;
     color: black;
@@ -468,15 +472,14 @@ footer .copyright {
   }
 
   .open-intro-heading {
-    font-size: 20px;
+    font-size: 1.8rem;
     font-weight: 200;
     color: #ec5242;
-    font-family: "cocogoose", sans-serif;
   }
 
   .open-heading {
     width: 80%;
-    font-size: 3.4rem;
+    font-size: 4.2rem;
     color: #ec5242;
     font-family: "cocogoose", sans-serif;
     margin: 0;
@@ -495,7 +498,7 @@ footer .copyright {
   }
 
   .venue {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: start;
     margin-top: -20px;
     padding-bottom: 40px;
@@ -511,7 +514,7 @@ footer .copyright {
   h3 {
     font-family: "cocogoose", sans-serif;
     font-size: 1.84rem;
-    color: #504f4f;
+    color: rgba(39, 39, 39, 0.637);
   }
 
   p {
@@ -614,21 +617,25 @@ footer .copyright {
 
   .section-speakers-heading {
     text-align: center;
+    margin-top: -7%;
   }
 
   .featured-speakers {
-    width: 85%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
-    margin: auto;
+    justify-content: center;
+    grid-template-columns: 30% 30%;
+    margin: 0;
+    gap: 10px;
+    padding-bottom: 5%;
+    margin-top: -2%;
   }
 
   .speaker-section {
-    margin-inline: 2.5%;
-    width: 95%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
-    margin-block: 12%;
+    justify-content: center;
+    margin-bottom: -40px;
   }
 
   .speaker-image-section {
@@ -664,7 +671,7 @@ footer .copyright {
   }
 
   .partners-section {
-    background-color: #3f444f;
+    background-color: #3e3e3e;
   }
 
   strong {
@@ -672,31 +679,19 @@ footer .copyright {
   }
 
   .partners-heading {
-    padding-top: 3%;
+    padding-top: -3%;
     margin-bottom: 1%;
     text-align: center;
     color: #fff;
   }
 
   .partners-flex {
-    margin-top: 4%;
+    margin-top: -3%;
     width: 75%;
+    height: 30%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-
-  .partners-list {
-    margin-bottom: 3%;
-  }
-
-  .partners-list .img {
-    margin-block: 10%;
-  }
-
-  .partner-image {
-    width: 125px;
-    height: 40px;
   }
 
   footer {
