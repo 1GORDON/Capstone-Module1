@@ -20,7 +20,7 @@ Building the the Capstone priject, I achieved the following milestone
 
 ## Live Demo
 
-[Link to My Capstone project](https://1gordon.github.io/Capstone-Module1/)
+[Link to My Capstone project](https://capstone-module1.netlify.app/)
 
 [Link to My Capstone video](https://loom.com/share/ec65d65b977f4223bd8bcb573adf72e3/)
 
